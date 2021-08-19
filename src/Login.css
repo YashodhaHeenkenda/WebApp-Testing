@@ -1,0 +1,65 @@
+.Login {
+  font-family: sans-serif;
+  
+
+ 
+}
+
+
+
+form {
+  max-width: 300px;
+  width: 50%;
+  margin: 0 auto;
+ 
+}
+.v1{
+  border-left: 2px dotted #d4d0d0;
+  height: 500px;
+  position: absolute;
+  right: 100%;
+  margin-left: -3px;
+  top: 0;
+}
+
+
+label,
+input {
+  display:block;
+  width: 100%;
+  color:rgb(70, 153, 179) ;
+  font-weight: 500;
+  width: 300px;
+}
+
+label {
+  margin-bottom: 5px;
+  height: 22px;
+}
+
+input {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #777;
+}
+
+
+
+button {
+  padding: 10px 15px;
+  background-color: rgb(70, 153, 179);
+  color: white;
+  border: 1px solid rgb(70, 153, 179);
+  transition: ease-in-out background-color 250ms, ease-in-out color 250ms;
+  width: 300px;
+  border-radius: 5px;
+  align-items: center;
+  
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: rgb(70, 153, 179);
+}
